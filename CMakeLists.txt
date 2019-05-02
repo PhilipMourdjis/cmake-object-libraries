@@ -9,4 +9,5 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)     # for fpic
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 
-add_subdirectory(core)
+add_subdirectory(libraries)
+add_subdirectory(sample_app)

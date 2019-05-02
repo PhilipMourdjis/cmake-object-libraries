@@ -2,10 +2,11 @@
 add_library(core_io_obj OBJECT
             private/io.cpp)
 
-target_include_directories(core_io_obj PUBLIC ${PROJECT_SOURCE_DIR})
-target_compile_definitions(core_io_obj PRIVATE COMPILING_DLL)
+target_include_directories(core_io_obj
+PUBLIC ${PROJECT_SOURCE_DIR}/libraries
+)
 
-# REGULAR LIBRARY (explicitly SHARED)
+# REGULAR LIBRARY
 # Note: some IDEs may not show the target if the target has no sources itself. 
 add_library(core_io STATIC)
 
