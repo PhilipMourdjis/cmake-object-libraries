@@ -1,9 +1,7 @@
 #include <string>
 
-namespace core::database {
-
+namespace core::database
+{
 void printString(const std::string& someString);
-
 int returnNumberTwo();
-
-} // core::database
+}  // namespace core::database

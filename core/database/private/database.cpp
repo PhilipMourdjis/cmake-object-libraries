@@ -3,10 +3,7 @@
 
 void core::database::printString(const std::string& someString)
 {
-    std::cout << someString << "\n";
+  std::cout << someString << "\n";
 }
 
-int core::database::returnNumberTwo()
-{
-	return 2;
-}
+int core::database::returnNumberTwo() { return 2; }

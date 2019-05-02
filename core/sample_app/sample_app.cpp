@@ -5,10 +5,10 @@
 
 int main(int argc, char** argv)
 {
-	const int four = core::io::returnNumberFour();
-	const int two = core::database::returnNumberTwo();
+  const int four = core::io::returnNumberFour();
+  const int two  = core::database::returnNumberTwo();
 
-	std::cout << "Two = " << two << ", four =" << four << "\n";
+  std::cout << "Two = " << two << ", four =" << four << "\n";
 
-	return EXIT_SUCCESS;
+  return EXIT_SUCCESS;
 }

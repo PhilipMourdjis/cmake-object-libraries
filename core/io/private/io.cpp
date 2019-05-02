@@ -3,10 +3,7 @@
 
 void core::io::printString(const std::string& someString)
 {
-	std::cout << someString << "\n";
+  std::cout << someString << "\n";
 }
 
-int core::io::returnNumberFour()
-{
-	return 4;
-}
+int core::io::returnNumberFour() { return 4; }
